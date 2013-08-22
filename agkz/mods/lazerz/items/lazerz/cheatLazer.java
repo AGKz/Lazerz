@@ -8,6 +8,7 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import agkz.mods.lazerz.InternalName;
 import agkz.mods.lazerz.items.MiningLazerBase;
+import agkz.mods.lazerz.items.lazerItems;
 import net.minecraft.block.Block;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.entity.player.EntityPlayer;
@@ -20,7 +21,7 @@ public class cheatLazer extends MiningLazerBase {
 
 	public cheatLazer(Configuration config, InternalName internalName)
 	{
-	    super(config, internalName, 0, 3, false);
+	    super(config, internalName, lazerItems.cheatLazer, 0, 3, false, 0);
 	    
 	}
 

@@ -9,12 +9,13 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.Configuration;
 import agkz.mods.lazerz.InternalName;
 import agkz.mods.lazerz.items.MiningLazerBase;
+import agkz.mods.lazerz.items.lazerItems;
 
 public class lazerHandgun extends MiningLazerBase {
 
 	public lazerHandgun(Configuration config, InternalName internalName)
 	{
-	    super(config, internalName, 20000, 1, false);
+	    super(config, internalName, lazerItems.lazerHandGun, 20000, 1, false, 0);
 	}
 	
 

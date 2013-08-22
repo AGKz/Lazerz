@@ -8,6 +8,7 @@ import agkz.mods.lazerz.InternalName;
 import agkz.mods.lazerz.lazerz;
 import agkz.mods.lazerz.entity.EntityLazer;
 import agkz.mods.lazerz.items.MiningLazerBase;
+import agkz.mods.lazerz.items.lazerItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IconRegister;
@@ -21,7 +22,7 @@ public class MiningLazerMK2 extends MiningLazerBase {
 
 	public MiningLazerMK2(Configuration config, InternalName internalName)
 	{
-	    super(config, internalName, 200000, 2, true);
+	    super(config, internalName, lazerItems.MiningLazerMK2, 200000, 2, true, 0);
 	}
 	
 

@@ -1,9 +1,12 @@
 package agkz.mods.lazerz.items.lazerz;
 
 import ic2.api.item.ElectricItem;
+import ic2.core.ContainerBase;
+import ic2.core.IHasGui;
 
 import java.util.List;
 
+import net.minecraft.client.gui.GuiScreen;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
@@ -16,14 +19,15 @@ import net.minecraftforge.common.Configuration;
 import agkz.mods.lazerz.InternalName;
 import agkz.mods.lazerz.lazerz;
 import agkz.mods.lazerz.items.MiningLazerBase;
+import agkz.mods.lazerz.items.lazerItems;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class biologicalLazer extends MiningLazerBase{
+public class biologicalLazer extends MiningLazerBase {
 
 	public biologicalLazer(Configuration config, InternalName internalName)
 	{
-	    super(config, internalName, 200000, 2, false);
+	    super(config, internalName, lazerItems.biologicalLazer, 200000, 2, false, 1);
 	}
 	
 	public ItemStack onItemRightClick(ItemStack itemstack, World world, EntityPlayer player)

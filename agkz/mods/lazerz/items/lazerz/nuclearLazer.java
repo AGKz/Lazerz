@@ -3,6 +3,7 @@ package agkz.mods.lazerz.items.lazerz;
 import ic2.api.item.ElectricItem;
 import agkz.mods.lazerz.InternalName;
 import agkz.mods.lazerz.items.MiningLazerBase;
+import agkz.mods.lazerz.items.lazerItems;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumToolMaterial;
@@ -14,7 +15,7 @@ public class nuclearLazer extends MiningLazerBase {
 
 	public nuclearLazer(Configuration config, InternalName internalName)
 	{
-	    super(config, internalName, 500000, 2, true);
+	    super(config, internalName, lazerItems.nuclearLazer, 500000, 2, true, 9);
 	}
 	
 
