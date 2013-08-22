@@ -1,0 +1,27 @@
+[
+{
+  "modid": "lazerz",
+  "name": "Lazerz Add-on to IC2",
+  "description": "Add-on to IC2 that adds a few features to the Mining Laser. Oh, Did I say a few?",
+  "version": "0.1",
+  "mcversion": "1.6.2",
+  "url": "http://forum.industrial-craft.net/index.php?page=Thread&threadID=4827",
+  "updateUrl": "http://www.agkz.me",
+  "authors": [
+    "AGKz"
+  ],
+  "credits": "By AGKz, though much thanks to the IC2 dev team. Without them, this would not be possible",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "REMOVErequiredMods": [
+    "IC2@[1.115,)",
+    "Forge@[9.10,)"
+  ],
+  "REMOVEdependencies": [
+  	"IC2@[1.115,)"
+  ],
+  "useDependencyInformation" : "true"
+}
+]
