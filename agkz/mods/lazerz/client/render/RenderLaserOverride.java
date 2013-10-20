@@ -14,7 +14,7 @@ public class RenderLaserOverride extends RenderCrossed {
 	}
 	
 	@Override
-	public void doRender(Entity entity, double x, double y, double z, float yaw, float pitch)
+	public void func_76986_a(Entity entity, double x, double y, double z, float yaw, float pitch)
 	{
 		
 		NBTTagCompound eData = entity.getEntityData();
@@ -32,7 +32,7 @@ public class RenderLaserOverride extends RenderCrossed {
 		}
 		
 		
-		super.doRender(entity, x, y, z, yaw, pitch);
+		super.func_76986_a(entity, x, y, z, yaw, pitch);
 	}
 
 }
